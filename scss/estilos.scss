@@ -1,0 +1,126 @@
+//anidamiento
+@font-face{
+    font-family: bro;
+    src: url(../fuente/BrothersBold.otf);
+}
+@import "utilities/variables";
+body{
+    font-family: bro;
+    background-color: $color-fondo;
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
+    .contenedorMenu{
+        display: flex;
+    }
+    .nav-item{
+        font-size: 1.4rem;    
+    }
+    //Main index - inicio
+    main{
+        div{
+            div{
+                align-items: center;         
+               
+               .bienvenidos{
+                color: $color-principal;
+                font-size: 6rem;
+               }
+               .bienvenidos{
+                @media (max-width: 768px){
+                    font-size: 3rem;
+                    line-height: 3rem;                
+                }                
+               }
+               .bienvenida{
+                color: $color-parrafos;
+                font-size: 2rem;
+                padding-left: 1rem;    
+               }
+               .bienvenida{
+                @media (max-width: 768px){
+                    font-size: 1.5rem;
+                    line-height: 3rem;                
+                }
+               }
+               .linkHomeNosotros a{
+                border: 3px solid $color-principal;
+                padding: 1.2rem;
+                text-decoration: none;
+                color: $color-principal;
+                border-radius: 2rem;    
+                display: inline-block;
+                margin-top: 1rem;
+                margin-left: 5rem;
+               }
+               .linkHomeNosotros a:hover{
+                transform: scale(1.1);
+                transition: 0.7s;
+               }
+               .imgHome1{
+                margin-top: 1.2rem;
+               }               
+            }
+        }    
+        div{
+            .hashtagMBox{
+                font-size: 8rem;
+            }
+            .hashtagMBox{
+                @media (max-width: 768px){
+                    font-size: 4rem;
+                }
+            }
+        }
+        div{
+            .encabezadoHomeMenu{
+                font-size: 6rem;
+                color: $color-principal;
+            }
+            .parrafoHomeMenu{
+                font-size: 2rem;
+                color: $color-parrafos;
+            }
+            .linkHomeMenu a{
+                border: 3px solid $color-principal;
+                text-decoration: none;
+                color: $color-principal;
+                border-radius: 30px; 
+                padding: 1rem;      
+            }
+            .linkHomeMenu{
+                &:hover{
+                transform: scale(1.1);
+                transition: 1s;
+                }    
+            }  
+        }
+        div{
+            .redesHome{
+                font-size: 4rem;
+                color: $color-encabezado-redes;
+            }
+            .logoRedesHome{
+                &:hover{
+                    transform: scale(1.1);
+                    transition: 0.5s; 
+                }                   
+            }
+        }         
+    }
+    footer{    
+        position: absolute;
+        height: auto;    
+        bottom: 0;      
+        .magicFooter a{
+            text-decoration: none;
+            color: $color-principal;
+        }
+        .derechosFooter{
+            color: $color-parrafos;
+        }
+    
+    }   
+
+}

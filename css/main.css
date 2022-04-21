@@ -1,0 +1,81 @@
+@font-face {
+  font-family: bro;
+  src: url(../fuente/BrothersBold.otf); }
+
+body {
+  font-family: bro;
+  background-color: #202020;
+  width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh; }
+  body .contenedorMenu {
+    display: flex; }
+  body .nav-item {
+    font-size: 1.4rem; }
+  body main div div {
+    align-items: center; }
+    body main div div .bienvenidos {
+      color: #B3903A;
+      font-size: 6rem; }
+    @media (max-width: 768px) {
+      body main div div .bienvenidos {
+        font-size: 3rem;
+        line-height: 3rem; } }
+    body main div div .bienvenida {
+      color: whitesmoke;
+      font-size: 2rem;
+      padding-left: 1rem; }
+    @media (max-width: 768px) {
+      body main div div .bienvenida {
+        font-size: 1.5rem;
+        line-height: 3rem; } }
+    body main div div .linkHomeNosotros a {
+      border: 3px solid #B3903A;
+      padding: 1.2rem;
+      text-decoration: none;
+      color: #B3903A;
+      border-radius: 2rem;
+      display: inline-block;
+      margin-top: 1rem;
+      margin-left: 5rem; }
+    body main div div .linkHomeNosotros a:hover {
+      transform: scale(1.1);
+      transition: 0.7s; }
+    body main div div .imgHome1 {
+      margin-top: 1.2rem; }
+  body main div .hashtagMBox {
+    font-size: 8rem; }
+  @media (max-width: 768px) {
+    body main div .hashtagMBox {
+      font-size: 4rem; } }
+  body main div .encabezadoHomeMenu {
+    font-size: 6rem;
+    color: #B3903A; }
+  body main div .parrafoHomeMenu {
+    font-size: 2rem;
+    color: whitesmoke; }
+  body main div .linkHomeMenu a {
+    border: 3px solid #B3903A;
+    text-decoration: none;
+    color: #B3903A;
+    border-radius: 30px;
+    padding: 1rem; }
+  body main div .linkHomeMenu:hover {
+    transform: scale(1.1);
+    transition: 1s; }
+  body main div .redesHome {
+    font-size: 4rem;
+    color: #424242; }
+  body main div .logoRedesHome:hover {
+    transform: scale(1.1);
+    transition: 0.5s; }
+  body footer {
+    position: absolute;
+    height: auto;
+    bottom: 0; }
+    body footer .magicFooter a {
+      text-decoration: none;
+      color: #B3903A; }
+    body footer .derechosFooter {
+      color: whitesmoke; }
