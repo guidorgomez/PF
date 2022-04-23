@@ -96,3 +96,110 @@ body {
       color: #B3903A; }
     body footer .derechosFooter {
       color: whitesmoke; }
+
+main section .h1Contacto {
+  color: #B3903A;
+  font-size: 6.25rem; }
+  @media (max-width: 768px) {
+    main section .h1Contacto {
+      font-size: 4rem; } }
+
+main section div .contactanos {
+  color: whitesmoke;
+  font-size: 2.2rem; }
+  @media (max-width: 768px) {
+    main section div .contactanos {
+      font-size: 1.5rem; } }
+
+main section .encabezadoForm {
+  background-color: #8a7131;
+  border: 3px solid #B3903A;
+  color: #B3903A;
+  border-radius: 2rem; }
+
+main section .encabezadoForm h3 {
+  color: #202020;
+  font-size: 2.5rem; }
+  main section .encabezadoForm h3:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+    text-transform: uppercase; }
+
+main section div .mensajeForm {
+  height: 6.25rem; }
+
+main section div .camposForm {
+  color: whitesmoke; }
+
+main section form .enviarForm {
+  text-transform: uppercase; }
+
+main .encabezadoMenu {
+  margin: 1rem; }
+
+main section .h1Menu {
+  color: #B3903A;
+  font-size: 6.25rem;
+  text-align: center; }
+
+main section .parrafoMenu {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1.5rem; }
+
+main div .intervaloMenu {
+  font-size: 5rem;
+  text-align: center;
+  color: #424242; }
+
+main div .intervaloMenu1 {
+  color: #B3903A;
+  font-size: 10rem;
+  text-align: center; }
+
+main div .intervaloMenu1:hover {
+  transform: scale(1.1);
+  transition: 0.7s;
+  text-transform: lowercase; }
+
+main div .gustoTitulo {
+  color: #B3903A;
+  font-size: 2rem; }
+
+main div .gustoDescripcion {
+  color: whitesmoke; }
+
+main div .pedirMenu a {
+  border: 3px solid #B3903A;
+  text-decoration: none;
+  color: #B3903A;
+  border-radius: 1.3rem;
+  padding: 0.3rem; }
+
+.mainMenu {
+  display: grid;
+  grid-template-columns: "h1Menu" "parrafoMenu" "intervaloMenu" "intervaloMenu1";
+  justify-content: center;
+  align-items: center; }
+
+.h1Menu {
+  grid-area: h1Menu; }
+
+.parrafoMenu {
+  grid-area: parrafoMenu; }
+
+.intervaloMenu {
+  grid-area: intervaloMenu; }
+
+.intervaloMenu1 {
+  grid-area: intervaloMenu1; }
+
+footer {
+  position: absolute;
+  height: auto;
+  bottom: 0; }
+  footer div .magicFooter a {
+    text-decoration: none;
+    color: #B3903A; }
+  footer div .derechosFooter {
+    color: whitesmoke; }

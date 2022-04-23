@@ -152,3 +152,145 @@ body{
     }   
 
 }
+// Como pedir
+main{
+    section{
+        .h1Contacto{
+            color: $color-principal;
+            font-size: 6.25rem;
+            @media (max-width: 768px){
+                font-size: 4rem;                                    
+            }  
+        }
+    }
+    section{
+            div{
+                .contactanos{
+                color: $color-parrafos;
+                font-size: 2.2rem;
+                @media (max-width: 768px){
+                    font-size: 1.5rem;                                    
+                } 
+            }
+        }
+    }
+    section{
+        .encabezadoForm{
+            background-color:#8a7131;
+            border: 3px solid $color-principal;
+            color: $color-principal;
+            border-radius: 2rem;   
+            }
+        .encabezadoForm h3{
+             &:hover{
+                transform: scale(1.1);
+                transition: 0.7s;
+                text-transform: uppercase;
+            }
+            color: #202020;
+            font-size: 2.5rem;
+        }
+        div{
+            .mensajeForm{
+                height: 6.25rem;
+            }
+            .camposForm{
+                color: $color-parrafos;
+            }
+        }
+        form{
+            .enviarForm{
+                text-transform: uppercase;
+            } 
+        }   
+    }
+}
+// MAGIC MENU
+main{
+    .encabezadoMenu{
+        margin: 1rem;
+    }
+    section{
+        .h1Menu{
+            color:$color-principal;
+            font-size: 6.25rem;
+            text-align: center;
+        }
+        .parrafoMenu{
+            color: $color-parrafos;
+            text-align: center;
+            font-size: 1.5rem;    
+        }
+    }
+    div{
+        .intervaloMenu{
+            font-size: 5rem;
+            text-align: center;
+            color: #424242;
+        }
+        .intervaloMenu1{
+            color: $color-principal;
+            font-size: 10rem;
+            text-align: center;
+        }
+        .intervaloMenu1{
+            &:hover{
+                transform: scale(1.1);
+                transition: 0.7s;
+                text-transform:lowercase;
+            }
+        }
+        .gustoTitulo{
+            color: $color-principal;
+            font-size: 2rem;
+        }
+        .gustoDescripcion{
+            color: $color-parrafos;
+        }
+        .pedirMenu a{
+            border: 3px solid $color-principal;
+            text-decoration: none;
+            color: $color-principal;
+            border-radius: 1.3rem; 
+            padding: 0.3rem;      
+        }
+    }
+    
+}
+.mainMenu{
+    display: grid;
+    grid-template-columns: "h1Menu"
+                           "parrafoMenu"
+                           "intervaloMenu"
+                           "intervaloMenu1";
+  justify-content: center;
+  align-items: center;
+}
+.h1Menu{
+    grid-area: h1Menu;
+}
+.parrafoMenu{
+    grid-area: parrafoMenu;
+}
+.intervaloMenu{
+    grid-area: intervaloMenu;
+}
+.intervaloMenu1{
+    grid-area: intervaloMenu1;
+}
+
+//footer
+footer{
+    position: absolute;
+    height: auto;    
+    bottom: 0;
+    div{
+        .magicFooter a{
+            text-decoration: none;
+            color: $color-principal;
+        }
+        .derechosFooter{
+            color: $color-parrafos;
+        }
+    }
+}
