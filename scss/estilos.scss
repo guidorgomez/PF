@@ -471,7 +471,7 @@ main{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-auto-rows: 200px;       
-        padding: 2rem;
+        padding: 2rem;        
         .galeria4{
             grid-column-start: span 2;
         }
